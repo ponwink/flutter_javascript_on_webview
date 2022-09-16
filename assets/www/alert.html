@@ -1,0 +1,14 @@
+<html lang="ja">
+    <head>
+    </head>
+    <body>
+        <div style="padding-top: 8rem; text-align: center">
+            <button id="alert" style="padding: 2rem; font-size: 3rem" onclick="buttonAlertClick()">Flutterのアラートを表示</button>
+        </div>
+        <script>
+             function buttonAlertClick() {
+                 window.flutter_inappwebview.callHandler('showAlert', '');
+             }
+        </script>
+    </body>
+</html>
